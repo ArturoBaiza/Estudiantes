@@ -1,0 +1,34 @@
+body {
+  font-family: 'Comic Neue', cursive, Arial, sans-serif; /* Fuente Comic Neue como primera opción, cursive como alternativa */
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ddd; /* Grosor y color del borde de la tabla */
+  max-width: 100%; /* Asegura que la tabla no sobrepase el ancho del contenedor padre */
+  overflow-x: auto; /* Añade scroll horizontal si la tabla es más ancha que la pantalla */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle; /* Alineación vertical al centro */
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain; /* Ajusta la imagen sin recortar */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
